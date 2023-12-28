@@ -8,6 +8,9 @@ Lista de Compras é um programa desenvolvido para criações de listas, onde voc
 O projeto é desenvolvido na linguagem Python e tem sua interface com a biblioteca Tkinter e seu banco de dados em SQLITE3.
 Ao iniciar o programa, ele verifica se o banco de dados ja foi criado e se caso ainda não existe, ele cria a tabela. Quando criado uma nova lista também é criado uma nova tabela no banco de dados com o nome inserido pelo usuário, assim como quando é alterado esse nome também é alterado no banco e o mesmo acontece quando essa lista é apagada.
 
+O repositório conta com o código e também com um Executável para facilitar o uso.
+
+
 ## Página Principal:
 
 ![Pagina Principal](https://github.com/rafaelbelentani/Lista-de-Compras/assets/135762922/32e0ba52-0297-4fcd-bb5e-05d9667f3184)
