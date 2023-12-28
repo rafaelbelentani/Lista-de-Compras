@@ -3,7 +3,7 @@
 
 ## Sobre o Projeto
 
-Lista de Compras é um programa desenvolvido para criações de listas, onde você pode criar várias listas e alternar entre elas. Também é possivel fazer alterações e apagar cada uma delas. O proigrama trata possíveis erros de usuários e é bem intuitivo.
+Lista de Compras é um programa desenvolvido para criações de listas, onde você pode criar várias listas e alternar entre elas. Também é possivel fazer alterações e apagar cada uma delas. O programa trata possíveis erros de usuários e é bem intuitivo.
 
 O projeto é desenvolvido na linguagem Python e tem sua interface com a biblioteca Tkinter e seu banco de dados em SQLITE3.
 Ao iniciar o programa, ele verifica se o banco de dados ja foi criado e se caso ainda não existe, ele cria a tabela. Quando criado uma nova lista também é criado uma nova tabela no banco de dados com o nome inserido pelo usuário, assim como quando é alterado esse nome também é alterado no banco e o mesmo acontece quando essa lista é apagada.
