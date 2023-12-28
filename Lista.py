@@ -92,7 +92,7 @@ class Funcao(): #Cria uma classe para as funções
             quantidade = int(self.quantidade)
             valor = float(self.valor)
             
-            if self.item and quantidade and valor and self.concluido:
+            if self.item and quantidade > 0 and valor > 0 and self.concluido:
                 total = quantidade * valor
                 self.cursor.execute(f'INSERT INTO "{nome}" (item, quantidade, valor, concluido, total) VALUES(?, ?, ?, ?, ?)', (self.item, self.quantidade, self.valor, self.concluido, total))
                 self.conn.commit()
